@@ -16,7 +16,7 @@ function take_snapshot()
         document.getElementById("result").innerHTML= '<img id="captured_image" src="'+data_uri+'"/>'
     });
 
-    window.alert("Please Click Ok To Captured Your Image")
+    window.alert("Please Click Ok To Capture Your Image")
 }
 console.log('ml5 version',ml5.version);
 
